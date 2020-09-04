@@ -30,3 +30,4 @@ Run bot to your server
 python3 main.py
 '''
 
+![Screenshot](img/1.jpg)
