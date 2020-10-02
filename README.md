@@ -1,5 +1,5 @@
 # BOT COVID-19 Telegram [Python]
-This bot is used to monitor the Covid-10 outbreak in Indonesia. This code must be placed on the server because it must run 24 hours, you try this bot on @imyouruniverse_bot
+This bot is used to monitor the Covid-19 outbreak in Indonesia. This code must be placed on the server because it must run 24 hours, you can try this bot on @imyouruniverse_bot
 
 ## How to use
 Installing requests
