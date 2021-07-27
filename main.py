@@ -95,7 +95,7 @@ def teleget():
                 offset[0] = intid_update
 
         except Exception:
-            print("asu")
+            pass
 
 
 teleget()
