@@ -4,7 +4,7 @@ import requests
 
 
 def telesend(bot_chatID, bot_message):
-    url = "https://api.telegram.org/bot1317456522:AAHxR2VLuy8eEVB4xLitXmKNEZ1v_gxATuI/sendMessage?chat_id=" + \
+    url = "https://api.telegram.org/[BOTTOKEN]/sendMessage?chat_id=" + \
         bot_chatID + "&parse_mode=Markdown&text=" + bot_message
     requests.get(url)
 
@@ -38,7 +38,7 @@ def teleget():
             response_berita_covid = urllib.request.urlopen(url_berita_covid)
             berita_covid = json.loads(response_berita_covid.read())
 
-            url = 'https://api.telegram.org/bot1317456522:AAHxR2VLuy8eEVB4xLitXmKNEZ1v_gxATuI/getUpdates?offset=' + \
+            url = 'https://api.telegram.org/[BOTTOKEN]/getUpdates?offset=' + \
                 str(offset[0])
             response = urllib.request.urlopen(url)
             data = json.loads(response.read())
