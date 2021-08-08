@@ -24,6 +24,8 @@ pip install requests
 # python3 main.py
 ```
 
+![Alt Text](https://raw.githubusercontent.com/jagadyudha/bot-telegram-covid/master/img/result.gif)
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
