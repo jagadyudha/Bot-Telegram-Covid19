@@ -24,7 +24,11 @@ pip install requests
 # python3 main.py
 ```
 
-<p align="center">
+## Demo
+
+this is my telegram bot link : https://t.me/Imyouruniverse_bot
+
+<p align="left">
   <img src="https://raw.githubusercontent.com/jagadyudha/bot-telegram-covid/master/img/result.gif">
 </p>
 
