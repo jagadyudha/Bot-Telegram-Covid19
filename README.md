@@ -1,33 +1,29 @@
-# BOT COVID-19 Telegram [Python]
-This bot used for monitoring Covid-19 outbreak in Indonesia. This code must be placed on the server because it must run 24 hours, you can try this bot on @imyouruniverse_bot
+# Bot telegram covid-19 in Indonesia [Python3]
 
-## How to use
-Installing requests
+Telegram bot covid-19 are small programs that can give you information about covid-19 in Indonesia chats or public.
+
+## Quick Start
+
+It is recommended to install python3, pip3, and requests.
+
+```bash
+sudo apt-get install python3
 ```
+
+```bash
+sudo apt-get install python3-pip
+```
+
+```bash
 pip install requests
 ```
-install urllib.request
-```
-pip install urllib.request
-```
-change token with your bot token
-```
-def telesend(bot_chatID, bot_message):
-    url = "https://api.telegram.org/YOURTOKEN/sendMessage?chat_id=" + \
-        bot_chatID + "&parse_mode=Markdown&text=" + bot_message
-    requests.get(url)
-    
-while True:
-        try:
-            url = 'https://api.telegram.org/YOURTOKEN/getUpdates?offset=' + \
-                str(offset[0])
-            response = urllib.request.urlopen(url)
-            data = json.loads(response.read())
+
+## Usage
+
+```bash
+# python3 main.py
 ```
 
-Run bot to your server
-'''
-python3 main.py
-'''
+## Contributing
 
-![Screenshot](img/1.jpg)
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
