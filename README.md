@@ -24,7 +24,8 @@ pip install requests
 # python3 main.py
 ```
 
-![Alt Text](https://raw.githubusercontent.com/jagadyudha/bot-telegram-covid/master/img/result.gif)
+
+<img align="right" src="https://raw.githubusercontent.com/jagadyudha/bot-telegram-covid/master/img/result.gif">
 
 ## Contributing
 
