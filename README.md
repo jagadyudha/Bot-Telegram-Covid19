@@ -1,6 +1,6 @@
 # Bot telegram covid-19 in Indonesia [Python3]
 
-Telegram bot covid-19 are small programs that can give you information about covid-19 in Indonesia chats or public.
+Telegram bot covid-19 are small programs for public that can give you information about covid-19 in Indonesia.
 
 ## Quick Start
 
